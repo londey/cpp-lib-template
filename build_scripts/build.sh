@@ -7,5 +7,5 @@ export DOCKER_IMAGE_TAG=cpp-lib-template-linux-build
 docker build --file linux.Dockerfile --tag ${DOCKER_IMAGE_TAG} .
 
 # build library
-docker run --rm -v ${pwd}/..:/working -t ${DOCKER_IMAGE_TAG} sh /build.sh
+docker run --rm -v ${PWD}/..:/working -t ${DOCKER_IMAGE_TAG} sh /build.sh
 
