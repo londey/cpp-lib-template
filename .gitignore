@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+
+CMakeFiles
+Testing
+.ninja_*
+CTestTestfile.cmake
+cmake_install.cmake
+*.ninja
+CMakeCache.txt
+test/some-lib-tests
